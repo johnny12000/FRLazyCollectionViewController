@@ -1,0 +1,16 @@
+PODS:
+  - FRLazyCollectionViewController (0.1.0)
+
+DEPENDENCIES:
+  - FRLazyCollectionViewController (from `../`)
+
+EXTERNAL SOURCES:
+  FRLazyCollectionViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FRLazyCollectionViewController: e5f517948e38f42c329c6ccaac6d1bcd139dc87f
+
+PODFILE CHECKSUM: 4b355d6bf05e10533ee80e4247e6e149ef462940
+
+COCOAPODS: 1.5.3

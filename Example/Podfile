@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FRLazyCollectionViewController_Tests' do
+  pod 'FRLazyCollectionViewController', :path => '../'
+  
+  
+end

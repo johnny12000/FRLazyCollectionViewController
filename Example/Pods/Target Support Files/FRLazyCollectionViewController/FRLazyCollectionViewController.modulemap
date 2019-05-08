@@ -1,0 +1,6 @@
+framework module FRLazyCollectionViewController {
+  umbrella header "FRLazyCollectionViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
