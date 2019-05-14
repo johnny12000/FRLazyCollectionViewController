@@ -12,6 +12,8 @@
 		1F7BA78F76D0811625AFC9B661F28958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		39352E6CDF871C1F9C618951045FE3C5 /* Pods-FRLazyCollectionViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EF5785AA1638319243245B3572AA33 /* Pods-FRLazyCollectionViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A02D3471E9D011D4DF635A168B840F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B214A235228B58EB00D63466 /* FRLazyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B214A234228B58EA00D63466 /* FRLazyCollectionViewController.swift */; };
+		B26D72AC228B40B100BB178F /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26D72AB228B40B100BB178F /* Placeholder.swift */; };
 		B6577A52E8663F51CE772F985A03BE60 /* Pods-FRLazyCollectionViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB731289C4B35144ACC7E0862F84AAE /* Pods-FRLazyCollectionViewController_Tests-dummy.m */; };
 		DCCD1C80C893E692B830F62805D100A8 /* FRLazyCollectionViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 640C46A906586BE86991BA9038DA9C9E /* FRLazyCollectionViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -27,22 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EA4C826BD8481F326E999D63ADA3942 /* FRLazyCollectionViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FRLazyCollectionViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EA4C826BD8481F326E999D63ADA3942 /* FRLazyCollectionViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FRLazyCollectionViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EB5940FF419FE7A42A7C8C04AFC43CC /* FRLazyCollectionViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FRLazyCollectionViewController.xcconfig; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		285E7A5DE11D96E5C77C599BA31B1000 /* FRLazyCollectionViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FRLazyCollectionViewController-dummy.m"; sourceTree = "<group>"; };
 		36292A157AED0403854DD3FCABF61C0A /* Pods-FRLazyCollectionViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRLazyCollectionViewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		455DD1DD80451D4592E115F1C75F75F6 /* FRLazyCollectionViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRLazyCollectionViewController-prefix.pch"; sourceTree = "<group>"; };
-		4B207E5B794A05ED9E4109953F8DA427 /* FRLazyCollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FRLazyCollectionViewController.framework; path = FRLazyCollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B207E5B794A05ED9E4109953F8DA427 /* FRLazyCollectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FRLazyCollectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB731289C4B35144ACC7E0862F84AAE /* Pods-FRLazyCollectionViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FRLazyCollectionViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		5CED1B8F68692F069A9BEDFDE6E1DBEB /* Pods-FRLazyCollectionViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FRLazyCollectionViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		640C46A906586BE86991BA9038DA9C9E /* FRLazyCollectionViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FRLazyCollectionViewController-umbrella.h"; sourceTree = "<group>"; };
-		69C142391D8290045F8AAC5F276A05FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		893E8A25FE483F42A145F3BC395176E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		69C142391D8290045F8AAC5F276A05FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		893E8A25FE483F42A145F3BC395176E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8FD05ABE788DEE8077ABBCD05E6FB482 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FRLazyCollectionViewController/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		96EF5785AA1638319243245B3572AA33 /* Pods-FRLazyCollectionViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FRLazyCollectionViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		970D366AE8675CA01A293C8473561070 /* FRLazyCollectionViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FRLazyCollectionViewController.modulemap; sourceTree = "<group>"; };
 		A2CD2AC933774B958C27E0AFF0BC3321 /* Pods-FRLazyCollectionViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FRLazyCollectionViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		B214A234228B58EA00D63466 /* FRLazyCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FRLazyCollectionViewController.swift; path = FRLazyCollectionViewController/Classes/FRLazyCollectionViewController.swift; sourceTree = "<group>"; };
+		B26D72AB228B40B100BB178F /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = FRLazyCollectionViewController/Classes/Placeholder.swift; sourceTree = "<group>"; };
 		B9EF2C54EF41AEF4F6DD0F7A7ADFA38A /* Pods-FRLazyCollectionViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FRLazyCollectionViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BFBD828334CAE7302B7BB1A2821CF765 /* Pods-FRLazyCollectionViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRLazyCollectionViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C355768560B358810C78BD33884F7BDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +54,7 @@
 		D583CEA35197E36BD21BE7A10053E955 /* Pods-FRLazyCollectionViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FRLazyCollectionViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D81BFE348C131CEC3CC9D7A005AC22D3 /* Pods-FRLazyCollectionViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FRLazyCollectionViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DAE542D4E361AC1D9BE2876C5C70034E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F716B32213F455565D313AD75C8F3E2E /* Pods_FRLazyCollectionViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FRLazyCollectionViewController_Tests.framework; path = "Pods-FRLazyCollectionViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F716B32213F455565D313AD75C8F3E2E /* Pods_FRLazyCollectionViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRLazyCollectionViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		3C3D33A0342F0B879B23352884D63D2E /* FRLazyCollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B214A234228B58EA00D63466 /* FRLazyCollectionViewController.swift */,
+				B26D72AB228B40B100BB178F /* Placeholder.swift */,
 				8FD05ABE788DEE8077ABBCD05E6FB482 /* ReplaceMe.swift */,
 				583B7989B28251C245AE8468A2F8EE78 /* Pod */,
 				3C0C3667C37F20F30D86FB6BD0DDED76 /* Support Files */,
@@ -251,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -288,6 +295,8 @@
 			files = (
 				15A9825A3853B99F310C1987A0E55836 /* FRLazyCollectionViewController-dummy.m in Sources */,
 				14E0017D3A598F079AB50D7C7211A768 /* ReplaceMe.swift in Sources */,
+				B214A235228B58EB00D63466 /* FRLazyCollectionViewController.swift in Sources */,
+				B26D72AC228B40B100BB178F /* Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,8 +505,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
